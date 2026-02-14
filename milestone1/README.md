@@ -4,45 +4,75 @@ Milestone 1 – User Authentication System
 PolicyNav – User Authentication System (Milestone 1)
 
 📖 Description
+
 In this milestone, we developed a complete user authentication system for the PolicyNav application using Streamlit and SQLite.
+
 The system allows users to:
+
 Create a new account with validation
+
 Login securely
+
 Access a Dashboard after successful login
+
 Recover password using security questions
+
 Logout securely and return to the home screen
+
 Navigation is handled using Streamlit session state to simulate multi-page routing within a single application
 
 ✅ Features Implemented
+
 🔹 User Signup with input validation
+
 🔹 Login authentication using SQLite database
+
 🔹 Dashboard redirection after successful login
+
+
 🔹 Welcome message displaying logged-in username
+
 🔹 Logout functionality
+
 🔹 Forgot Password using security question verification
+
 🔹 Background UI styling with custom design
+
 🔹 Navigation between pages (Home, Signup, Login, Dashboard, Forgot Password)
 
 ⚙️ Technologies Used
+
 Python
+
 Streamlit
+
 SQLite3
+
 Base64 (for background image rendering)
 
+
 ▶️ How to Run the Application
+
 Step 1: Install Required Dependencies
+
 pip install streamlit
+
 pip install pyjwt
 
 Step 2: Navigate to the Project Folder
+
 cd milestone1
 
 Step 3: Run the Streamlit Application
+
 streamlit run app.py
 
-Step 4: Run ngrok
+Step 4: Expose the app
+
 pip install pyngrok
+
 from pyngrok import ngrok
+
 ngrok.connect(8501)
 
 📸 Screenshots
@@ -62,10 +92,15 @@ ngrok.connect(8501)
 <img width="1919" height="907" alt="Screenshot 2026-02-14 113113" src="https://github.com/user-attachments/assets/112c6472-bc4f-440e-b95a-20a3346feda6" />
 
 🎯 Milestone 1 Outcome
+
 By completing this milestone, we successfully built a fully functional authentication system with:
+
 Secure login flow
+
 Proper user session handling
+
 Multi-page navigation structure
+
 Clean and interactive UI
 
 This forms the foundation for further development of the PolicyNav application.

@@ -20,9 +20,9 @@ from email.mime.multipart import MIMEMultipart
 # ---------------------------
 DB_NAME = "policy_secure_final.db"
 ADMIN_EMAIL = "admin@infosys.com"
-ADMIN_PASS = "Admin@123"
+ADMIN_PASS = ""
 EMAIL_SENDER = "bhaveenaps@gmail.com"
-EMAIL_APP_PASSWORD = "vacqjbqdcamguuko"
+EMAIL_APP_PASSWORD = ""
 
 # ---------------------------
 # UTILITY FUNCTIONS

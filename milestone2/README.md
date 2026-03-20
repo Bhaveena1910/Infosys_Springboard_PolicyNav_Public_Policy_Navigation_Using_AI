@@ -101,17 +101,30 @@ SMTP (Email Services)
 Pyngrok (Public Deployment)
 
 ▶️ How to Run the Application
+
 Step 1: Install Dependencies
+
 pip install streamlit bcrypt textstat wordcloud matplotlib pandas plotly PyPDF2 pyngrok
+
+
 Step 2: Navigate to Project Folder
+
 cd milestone2
+
+
 Step 3: Run the Streamlit Application
+
 streamlit run app.py
+
+
 Step 4: Expose the App Publicly 
+
 from pyngrok import ngrok
 
 ngrok.set_auth_token("YOUR_NGROK_TOKEN")
 ngrok.connect(8501)
+
+
 📸 Screenshots
 
 🔹 Home Page
